@@ -57,4 +57,15 @@ function flattenDictionary(dict, key) {
   return flatDictionary;
 }
 
+
+// function flattenDictionary(dict, parentKey){
+//     for(var key in dict){
+//         if(parseInt(dict[key], 10)){
+//             result[parentKey+key] = dict[key];
+//         }else{
+//             flattenDictionary(dict[key], parentKey+key+".");
+//         }
+//     }
+// }
+
 console.log(flattenDictionary(dict));
